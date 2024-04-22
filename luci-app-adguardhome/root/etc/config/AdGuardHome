@@ -8,7 +8,7 @@ config AdGuardHome 'AdGuardHome'
 	option logfile '/tmp/AdGuardHome.log'
 	option verbose '0'
 	option binpath '/usr/bin/AdGuardHome/AdGuardHome'
-	option upxflag '-1'
+	option upxflag ''
 
 	option waitonboot '0'
 	option update_url 'https://github.com/AdguardTeam/AdGuardHome/releases/download/${Cloud_Version}/AdGuardHome_linux_${Arch}.tar.gz'
